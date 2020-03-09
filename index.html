@@ -1,7 +1,152 @@
 <!doctype html>
-<html>
-    <head></head>
-    <body>
-        <h1>Practices of the Python Pro</h1>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <meta property="og:title" content="Practices of the Python Pro">
+        <meta property="og:url" content="https://thepythonpro.com">
+        <meta property="og:image" content="https://thepythonpro.com/practices-of-the-python-pro-cover.png">
+        <meta property="og:image:height" content="903">
+        <meta property="og:image:width" content="720">
+
+        <meta property="og:type" content="book">
+        <meta property="og:book:author" content="Dane Hillard">
+        <meta property="og:book:isbn" content="9781617296086">
+        <meta property="og:book:release_date" content="2020-01-14">
+    </head>
+
+    <body class="body">
+        <header class="header">
+            <h1 class="heading--large">Practices of the Python Pro</h1>
+            <span>by <a class="link" href="https://dane.engineering">Dane Hillard</a></span>
+        </header>
+
+        <div class="book-cover">
+            <picture class="responsive-image">
+                <source srcset="practices-of-the-python-pro-cover.webp" type="image/webp" media="(min-width: 0px)">
+                <img src="practices-of-the-python-pro-cover.png" class="book-cover__image responsive-image__image--limited" alt="Practices of the Python Pro book cover">
+            </picture>
+        </div>
+
+        <ul class="list buy-links">
+            <li><a class="link" href="https://www.manning.com/books/practices-of-the-python-pro?a_aid=danehillard&a_bid=857f932b">Buy from Manning</a></li>
+            <li><a class="link" href="https://www.amazon.com/Practices-Python-Pro-Dane-Hillard/dp/1617296082/">Buy from Amazon</a></li>
+            <li><a class="link" href="https://learning.oreilly.com/library/view/practices-of-the/9781617296086/">Read on O'Reilly</a></li>
+        </ul>
+
+        <main class="main">
+            <section class="section summary">
+                <p class="copy">
+                    Software development is becoming more and more accessible every day.
+                    Free and affordable online resources are helping more people than ever before learn how to write code.
+                </p>
+
+                <p class="copy">
+                    Python is one of the most popular programming languages today.
+                    If you work in data science, machine learning, or computational sciences you've probably used Python.
+                    Unless you've been writing code every day in a collaborative environment for several years, though, you may be missing out on a number of industry practices that can help you.
+                </p>
+
+                <p class="copy">
+                    A big part of professional Python development is writing easy-to-read code that other developers can understand and verify.
+                    <em>Practices of the Python Pro</em> teaches you how to design software with intent, solidifying your understanding with chapters of examples and exercies in Python.
+                    Learn how to separate concerns, encapsulate and abstract behavior, and use design patterns to achieve loose coupling.
+                    You'll come away with tools to build flexible code you can share easily with others.
+                </p>
+
+                <picture class="responsive-image">
+                    <img src="star-map.png" class="book-cover__image responsive-image__image--limited" alt="Practices of the Python Pro book cover">
+                </picture>
+            </section>
+
+            <section class="section events">
+                <h2 class="heading--medium">Upcoming events</h2>
+                <ul class="list event-list">
+                    <li><strong>2020-03-25</strong>: <a class="link" href="https://www.meetup.com/Python-Pittsburgh/events/268994810/">Pittsburgh Python meetup</a></li>
+                    <li><strong>2020-04-18</strong>: Book signing at the <a class="link" href="https://us.pycon.org/2020/">PyCon US 2020</a> open spaces</li>
+                </ul>
+            </section>
+
+            <section class="section praise">
+                <h2 class="heading--medium">Praise for <em>Practices of the Python Pro</em></h2>
+                <ul class="list praise-tweets">
+                    <li>
+                        <blockquote class="twitter-tweet">
+                            <p lang="en" dir="ltr">Practices of the Python Pro 1/4 <br>Practices of the Python Pro by Dane Hillard <a class="link" href="https://twitter.com/easyaspython?ref_src=twsrc%5Etfw">@easyaspython</a> <br>is an excellent book for people like data scientists, biologists, network engineers who use Python as a tool in their work.</p>&mdash; Natasha Samoylenko (@natenka_says) <a class="link" href="https://twitter.com/natenka_says/status/1235830951927660545?ref_src=twsrc%5Etfw">March 6, 2020</a>
+                        </blockquote>
+                    </li>
+                    <li>
+                        <blockquote class="twitter-tweet" data-conversation="none">
+                            <p lang="en" dir="ltr">Oh thank YOU for this delightful book!! It&#39;s exactly what I needed as a mostly self-taught Python coder and your writing is extremely accessible and helpful.</p>&mdash; トカイワイン (@vinumregum) <a class="link" href="https://twitter.com/vinumregum/status/1231680900364038145?ref_src=twsrc%5Etfw">February 23, 2020</a>
+                        </blockquote>
+                    </li>
+            </section>
+
+            <section class="section about">
+                <h2 class="heading--medium">About the author</h2>
+                <p class="copy">
+                     Dane Hillard is a software engineer, web developer, and international Python conference speaker interested in education, biotechnology, and open source.
+                </p>
+
+                <p class="copy">
+                    Dane has a B.S.E. in computer engineering with a minor in mathematics from the University of Michigan.
+                    As a software engineer, Dane has worked on intelligence research and development at SAIC (now Leidos) and personalized cancer genomics at Compendia Bioscience (now part of Thermo Fisher Scientific).
+                    As a lead web application developer at ITHAKA, his focus is mainly on web development in Python, Django, and front-end technologies to enable academic research.
+                </p>
+            </section>
+
+            <section class="section media">
+                <h2 class="heading--medium">Media</h2>
+                <ul class="list podcasts">
+                    <li>
+                        <a class="link" href="https://talkpython.fm/episodes/show/246/practices-of-the-python-pro">
+                            <em>Talk Python to Me:</em> Practices of the Python Pro
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="https://nodogmapodcast.bryanhogan.net/123-dane-hillard-good-software-practices/">
+                            <em>No Dogma:</em> Good Software Practices
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="https://devhell.info/post/2019-04-06/hot-for-teacher/">
+                            <em>The Development Hell:</em> Hot for Teacher
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="https://testandcode.com/70">
+                            <em>Test &amp; Code:</em> Non-traditional paths to software and the skills required
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="list articles">
+                    <li>
+                        <a class="link" href="https://www.blog.pythonlibrary.org/2019/04/22/pydev-of-the-week-dane-hillard/">
+                            <em>PyDev of the Week:</em> Dane Hillard
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section resources">
+                <h2 class="heading--medium">Resources</h2>
+                <ul class="list resource-list">
+                    <li><a class="link" href="https://github.com/daneah/practices-of-the-python-pro">Code listings and exercises</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <span class="copyright">
+                &copy; 2020 Dane Hillard
+            </span>
+        </footer>
+
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </body>
 </html>
