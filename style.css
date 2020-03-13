@@ -167,6 +167,24 @@
     opacity: 0.5;
 }
 
+.praise-tweets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+@media (max-width: 599px) {
+    .praise-tweets {
+        grid-template-columns: 1fr;
+    }
+}
+
+.praise-tweets__tweet {
+    margin: 0;
+    display: grid;
+}
+
 .twitter-tweet {
-    max-width: 90vw !important;
+    width: 100% !important;
+    margin: 0 !important;
 }
