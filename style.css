@@ -1,11 +1,11 @@
 :root {
     --color-black: #000000;
     --color-white: #ffffff;
-    --color-blah: #588bbb;
-    --color-other: #121f3f;
+    --color-robins-egg: #9ab9d6;
+    --color-midnight: #121f3f;
 
-    --color-background: var(--color-blah);
-    --color-text: var(--color-other);
+    --color-background: var(--color-robins-egg);
+    --color-text: var(--color-midnight);
 
     --space-base: 1rem;
     --space-scale-ratio: 1.5;
