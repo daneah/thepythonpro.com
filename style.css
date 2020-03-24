@@ -188,3 +188,8 @@
     width: 100% !important;
     margin: 0 !important;
 }
+
+.twitter-share-button {
+    margin: 0 0 0 1rem;
+    vertical-align: middle;
+}
