@@ -168,20 +168,20 @@
 }
 
 .praise-tweets {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 1175px;
 }
 
 @media (max-width: 599px) {
     .praise-tweets {
-        grid-template-columns: 1fr;
+        max-height: unset;
     }
 }
 
 .praise-tweets__tweet {
-    margin: 0;
-    display: grid;
+    margin-top: 0.5rem;
+    width: 49%;
 }
 
 .twitter-tweet {
