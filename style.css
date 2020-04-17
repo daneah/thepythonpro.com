@@ -177,6 +177,10 @@
     .praise-tweets {
         max-height: unset;
     }
+
+    .praise-tweets__tweet {
+        width: 100%;
+    }
 }
 
 .praise-tweets__tweet {
