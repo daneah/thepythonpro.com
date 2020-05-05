@@ -123,8 +123,15 @@
     margin-bottom: var(--space-small);
 }
 
+.heading--small {
+    font-size: var(--text-large);
+    margin-bottom: var(--space-xsmall);
+}
+
 .list {
     list-style: none;
+    line-height: 0.5;
+    margin-bottom: var(--space-medium);
 }
 
 .buy-links {
