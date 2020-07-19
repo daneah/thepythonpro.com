@@ -171,40 +171,16 @@
 }
 
 .copyright {
-    opacity: 0.5;
+    color: #555555;
 }
 
 .praise-tweets {
-    columns: 2;
-    column-gap: 1rem;
-}
-
-@media (max-width: 599px) {
-    .praise-tweets {
-        columns: 1;
-    }
-}
-
-@media (min-width: 1899px) {
-    .praise-tweets {
-        columns: 3;
-    }
-}
-
-.praise-tweets__tweet {
-    margin: 0;
-    display: inline-block;
-}
-
-.twitter-tweet {
-    width: 100% !important;
-    margin: 0 !important;
+    max-width: 750px;
 }
 
 .twitter-share-button {
     margin: 0 0 0 1rem;
     vertical-align: middle;
-
 }
 
 @media (max-width: 599px) {
