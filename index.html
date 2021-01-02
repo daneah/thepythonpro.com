@@ -208,10 +208,15 @@
 
         <footer class="footer">
             <span class="copyright">
-                &copy; 2020 Dane Hillard
+                &copy; 2020<span class="copyright__year"></span> Dane Hillard
             </span>
         </footer>
 
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script>
+            const copyrightYear = document.querySelector(".copyright__year");
+            const currentYear = new Date().getFullYear();
+            copyrightYear.innerText = `–${currentYear}`;
+        </script>
     </body>
 </html>
