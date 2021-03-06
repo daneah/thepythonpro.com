@@ -130,7 +130,6 @@
 
 .list {
     list-style: none;
-    line-height: 0.5;
     margin-bottom: var(--space-medium);
 }
 
