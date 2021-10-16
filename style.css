@@ -3,9 +3,11 @@
     --color-white: #ffffff;
     --color-robins-egg: #9ab9d6;
     --color-midnight: #121f3f;
+    --color-light-gray: #555555;
 
     --color-background: var(--color-robins-egg);
     --color-text: var(--color-midnight);
+    --color-text-muted: var(--color-light-gray);
 
     --space-base: 1rem;
     --space-scale-ratio: 1.5;
@@ -170,7 +172,7 @@
 }
 
 .copyright {
-    color: #555555;
+    color: var(--color-text-muted);
 }
 
 .praise-tweets {
@@ -187,4 +189,8 @@
         display: block;
         margin: 1rem 0;
     }
+}
+
+.affiliate-statement {
+    color: var(--color-text-muted);
 }
