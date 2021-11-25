@@ -137,6 +137,7 @@
 
 .responsive-image__image--limited {
     max-width: 100%;
+    height: auto;
 }
 
 .footer {
