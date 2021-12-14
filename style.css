@@ -78,6 +78,7 @@
     display: grid;
     grid-template-columns: auto repeat(2, 1fr) auto;
     grid-column: 1 / -1;
+    grid-row: 4;
 }
 
 .body {
@@ -91,10 +92,12 @@
 
 .praise {
     display: none;
+    grid-row: 4;
 }
 
 .header {
     margin: 0;
+    grid-row: 1;
 }
 
 .heading--large {
@@ -118,8 +121,13 @@
     margin-bottom: var(--space-medium);
 }
 
+.copies-sold {
+    grid-row: 2;
+}
+
 .buy-links {
     font-size: var(--text-large);
+    grid-row: 3;
 }
 
 .buy-links__link {
@@ -174,6 +182,7 @@
     }
 
     .header,
+    .copies-sold,
     .buy-links {
         grid-column: 1 / span 2;
     }
@@ -182,7 +191,7 @@
         margin: 0;
         width: 100%;
         grid-column: 4;
-        grid-row: 1 / span 2;
+        grid-row: 1 / span 3;
     }
 
     .section:nth-of-type(1) {
@@ -198,12 +207,9 @@
     }
 
     .header,
+    .copies-sold,
     .buy-links {
         grid-column: 1 / span 4;
-    }
-
-    .main {
-        grid-row: 3;
     }
 
     .section {
@@ -213,12 +219,11 @@
     .praise {
         display: block;
         grid-column: 1 / span 2;
-        grid-row: 3;
     }
 
     .book-cover {
         grid-column: 7 / span 2;
-        grid-row: 1 / span 2;
+        grid-row: 1 / span 3;
     }
 }
 
@@ -230,6 +235,7 @@
     }
 
     .header,
+    .copies-sold,
     .buy-links {
         grid-column: 1 / span 6;
     }
@@ -244,6 +250,6 @@
 
     .book-cover {
         grid-column: 10 / span 3;
-        grid-row: 1 / span 2;
+        grid-row: 1 / span 3;
     }
 }
