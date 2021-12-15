@@ -54,6 +54,14 @@
     margin-top: 1.5rem;
 }
 
+.list {
+    margin-left: var(--space-large);
+}
+
+.list__item {
+    margin-top: 0;
+}
+
 .link {
     color: var(--color-text);
 }
@@ -116,16 +124,12 @@
     margin-bottom: var(--space-xsmall);
 }
 
-.list {
-    list-style: none;
-    margin-bottom: var(--space-medium);
-}
-
 .copies-sold {
     grid-row: 2;
 }
 
 .buy-links {
+    margin-top: 0;
     font-size: var(--text-large);
     grid-row: 3;
 }
