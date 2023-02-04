@@ -217,7 +217,7 @@
     }
 
     .section {
-        grid-column: 4 / span 4;
+        grid-column: 3 / span 4;
     }
 
     .praise {
@@ -249,7 +249,7 @@
     }
 
     .section {
-        grid-column: 5 / span 6;
+        grid-column: 4 / span 6;
     }
 
     .book-cover {
