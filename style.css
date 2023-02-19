@@ -257,3 +257,9 @@
         grid-row: 1 / span 3;
     }
 }
+
+.cross-sell {
+    background: var(--color-white);
+    padding: var(--space-large);
+    border-radius: 2px;
+}
